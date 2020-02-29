@@ -1,0 +1,48 @@
+body {
+  background-color:rgb(204, 230, 255)
+}
+h1 {
+  text-align:center;
+  background-color:rgb(230, 243, 255);
+  padding: 10px;
+  border:2px solid rgb(113, 148, 218);
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+  margin-left:5px;
+  margin-right:5px;
+  background-color:rgb(230, 243, 255);
+  border:2px solid rgb(113, 148, 218);
+}
+.row:after {
+  content: "Now there will be a footer";
+  display: table;
+  clear: both;
+}
+.img1 {
+  width:120px;
+  height:160px;
+  margin-left:35%;
+  border:1px solid rgb(113, 148, 218);
+}
+.img2 {
+  width:230px;
+  height:170px;
+  margin-left:20%;
+  border:1px solid rgb(113, 148, 218);
+}
+.footer {
+  position:absolute;
+  top:1000px;
+  padding-bottom:40px;
+  font-style:italic;
+  background-color:rgb(230, 243, 255);
+  width:100%;
+  border:2px solid rgb(113, 148, 218);
+}
